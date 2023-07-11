@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    overflow-x: hidden;
+}
+ .container{
+    width: 100%;
+    height: 120px;
+    background-color: #1F1F1F;
+    display: block;
+}
+.main{
+    width: 100%;
+    height: 50%;
+    color: bisque;
+    display: flex;
+}
+.main2{
+    width: 100%;
+    height: 50%;
+    color: bisque;
+    display: flex;
+}
+.main3{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(189, 235, 5);
+    color: bisque;
+}
+.log{
+    width: 150px;
+    margin-left: 45%;
+    background-color: #8C0014;
+    height:100% ;
+    text-align: center;
+    font-size: 2em;
+}
+.para{
+    display: flex;
+   padding-left: 10%;
+   padding-top: 2px;
+
+}
+
+.m{
+    width: 50%;
+    height: 100%;
+    padding-top: 35px;
+}
+
+nav{
+    float: right;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+ul {
+    display: flex;
+        gap: 20px;
+        list-style: none;
+    
+}
+nav li{
+    display: inline;
+}
+ul li{
+    align-items: center;
+
+}
+
+
+.curosel {
+    display: flex;
+    background:white;
+    justify-content: center;
+    align-items: center;
+}
+.curosel img{ 
+    width: 65% ;
+    padding-left: 27px;
+    padding-top: 30px;
+   
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 50px 0px;
+}
+.box img{
+    gap: 10px;
+    width: 90%;
+}
+.box h3{
+    text-align: center;
+}
+
+
+.footer{
+background-color: rgb(48, 44, 44);
+justify-content: center;
+list-style: none;
+height: 27vh;
+width: 100%;
+display: flex;
+}
+ .footer ul li{
+    display: inline;
+    list-style: none;
+}
+
+.fs{
+    width: 40%;
+    height: 20%;
+    /* background-color: #8C0014; */
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.fs ul{
+    display: contents;
+}
+.emblem{
+    padding-top: 30px;
+}
+ 
+
